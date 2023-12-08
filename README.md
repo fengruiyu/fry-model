@@ -8,13 +8,23 @@
 
 ##### library-resource
 
+图片，视频，文字，资源存放的地方
+
 ##### library-mvvm
+
+管理activity，fragment基础类，
 
 ##### library-room
 
+数据库组件，谁用依赖就可以了
+
 ##### library-common
 
+存放UI组件
+
 ##### library-network
+
+网络管理组件
 
 ### 业务模块
 
