@@ -1,0 +1,21 @@
+ext {
+
+    android = [compileSdkVersion: 34,
+               minSdkVersion    : 24,
+               targetSdkVersion : 28,
+               versionCode      : 1,
+               versionName      : "1.0.0",]
+
+
+    libsVersion = [
+
+    ]
+    dependencies = [constraintlayout           : "androidx.constraintlayout:constraintlayout:2.1.4",
+                    lifecyclelivedataktx : "androidx.lifecycle:lifecycle-livedata-ktx:2.6.2",
+                    lifecycleviewmodelktx: "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2",
+                    navigationfragment      : "androidx.navigation:navigation-fragment:2.7.5",
+                    navigationui            : "androidx.navigation:navigation-ui:2.7.5'",
+
+    ]
+
+}

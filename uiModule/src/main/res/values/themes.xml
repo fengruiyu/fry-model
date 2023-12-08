@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FryProject" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/themeColors</item>
+        <item name="colorPrimaryVariant">@color/themeColors</item>
+        <item name="colorOnPrimary">@color/themeColors</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/themeColors</item>
+        <item name="colorSecondaryVariant">@color/themeColors</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+
+
+
+        <item name = "android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+
+    </style>
+</resources>
