@@ -1,1 +1,1 @@
-# fry-model
+![fry-project.drawio](https://raw.githubusercontent.com/fengruiyu/fry-image/main/202312081742803.png)
