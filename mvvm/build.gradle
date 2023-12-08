@@ -5,6 +5,8 @@ plugins {
 android {
     namespace 'com.example.mvvm'
     compileSdk rootProject.ext.android.compileSdkVersion
+    publishNonDefault true
+
 
     defaultConfig {
         minSdk rootProject.ext.android.minSdkVersion
@@ -26,5 +28,5 @@ android {
 }
 
 dependencies {
-api project(path: ':library-base')
+    api project(path: ':library-base')
 }

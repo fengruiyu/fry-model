@@ -5,6 +5,8 @@ plugins {
 android {
     namespace 'com.example.project'
     compileSdk rootProject.ext.android.compileSdkVersion
+    publishNonDefault true
+
 
     defaultConfig {
         applicationId "com.example.project"
@@ -23,6 +25,8 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+
+
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -35,6 +39,9 @@ android {
 
 dependencies {
     implementation project(path: ':mvvm')
+
+
     implementation project(path: ':uiModule')
+
 }
 

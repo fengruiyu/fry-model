@@ -5,6 +5,7 @@ plugins {
 android {
     namespace 'com.example.uimodule'
     compileSdk 33
+    publishNonDefault true
 
     defaultConfig {
         minSdk 24
@@ -18,6 +19,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

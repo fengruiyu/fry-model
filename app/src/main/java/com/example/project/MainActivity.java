@@ -1,7 +1,6 @@
 package com.example.project;
 
 import android.graphics.Color;
-import android.graphics.Rect;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,16 +9,9 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.example.base.log.Logcat;
-import com.example.uimodule.titlebar.TitleBar;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
+import com.elvishew.xlog.XLog;
 import com.example.project.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -29,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        XLog.tag("dfasdfas").e("Sdfasdf","sdfasdf");
 
 
-
-        Log.i("*** Elenasys :: ", "StatusBar Height= " + getStatusBarHeight() + " , TitleBar Height = " );
-
+        String cachePath = getApplicationContext().getExternalCacheDir().toString();
+        XLog.e("App Cache Path: " + cachePath);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         binding.title.setDarkStatusWhite(true,this);
